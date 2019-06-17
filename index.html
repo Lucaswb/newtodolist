@@ -5,41 +5,38 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/scripts.js"></script>
-  <title>Address Book</title>
+  <title>to do list</title>
 </head>
 <body>
     <div class="container">
-      <h1>Address Book</h1>
+      <h1>To do list</h1>
       <div class="row">
         <div class="col-md-6">
           <hr>
-          <h2>Add a Contact:</h2>
-          <form id="new-contact">
+          <h2>Add an item to do:</h2>
+          <form>
             <div class="form-group">
-              <label for="new-first-name">First Name</label>
-              <input type="text"  class="form-control" id="new-first-name">
+              <label for="addItem">add item to the list</label>
+              <input type="text"  class="form-control" id="addItem">
             </div>
             <div class="form-group">
-              <label for="new-last-name">Last Name</label>
-              <input type="text"  class="form-control" id="new-last-name">
-            </div>
-            <div class="form-group">
-              <label for="new-phone-number">Phone Number</label>
-              <input type="text"  class="form-control" id="new-phone-number">
+              <label for="addDescription">add item details</label>
+              <input type="text"  class="form-control" id="addDescription">
             </div>
             <button type="submit" class="btn-primary">Add</button>
           </form>
           <hr>
-          <h2>Contacts:</h2>
-          <ul id="contacts">
+          <h2>List of Items:</h2>
+          <ul id="items">
           </ul>
         </div>
         <div class="col-md-6">
-          <div id="show-contact">
-            <p>First Name: <span class="first-name"></span></p>
-            <p>Last Name: <span class="last-name"></span></p>
-            <p>Phone Number: <span class="phone-number"></span></p>
+          <div id="show-items">
+            <p>Items to Do: <span class="addItem"></span></p>
+            <p>Description: <span class="addDescription"></span></p>
+
             <div id="buttons">
+
             </div>
           </div>
         </div>

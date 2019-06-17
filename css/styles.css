@@ -1,3 +1,6 @@
-#show-contact {
+#show-items {
   display: none;
+}
+.highlight {
+  background-color: yellow
 }
